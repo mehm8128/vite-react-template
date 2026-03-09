@@ -13,7 +13,7 @@ importers:
         version: 2.1.1
       kiso.css:
         specifier: ^1.2.3
-        version: 1.2.3
+        version: 1.2.4
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -1043,8 +1043,8 @@ packages:
     resolution: {integrity: sha512-B281bLCT2TRMQa+AQUQY5AGcqSOXBOKaYGP4wDzoA/+QswUfN8sODektbPEs9Baq7LGKun5jQbNFpzwGuVYKhw==}
     engines: {node: '>=8'}
 
-  kiso.css@1.2.3:
-    resolution: {integrity: sha512-uZDh1/nhfMz1P29JWXMpS8W3K1LymS362Jeu24RDGJPn0mcLqApC0GwWgifs2bUHQb8wjjNuC+2Hbe5ql4dLQA==}
+  kiso.css@1.2.4:
+    resolution: {integrity: sha512-svHtRExh51oRPH9GQ/meutMUeztyFyJHH2YHt7If7fdvOyKImTCGNGIu48BudLouwcMldPz+80R7YBJJRy9aJQ==}
 
   lcid@3.1.1:
     resolution: {integrity: sha512-M6T051+5QCGLBQb8id3hdvIW8+zeFV2FyBGFS9IEK5H9Wt4MueD4bW1eWikpHgZp+5xR3l5c8pZUkQsIA0BFZg==}
@@ -2352,7 +2352,7 @@ snapshots:
       strip-bom: 4.0.0
       strip-json-comments: 3.1.1
 
-  kiso.css@1.2.3: {}
+  kiso.css@1.2.4: {}
 
   lcid@3.1.1:
     dependencies:
