@@ -3,6 +3,7 @@
   "extends": ["config:recommended"],
   "schedule": ["before 6am on monday"],
   "timezone": "Asia/Tokyo",
+  "minimumReleaseAge": "3 days",
   "labels": ["dependencies"],
   "assignees": ["mehm8128"],
   "packageRules": [

@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "typecheck": "cmk && tsc --noEmit",
     "lint": "oxlint src --fix",
+    "lint:check": "oxlint src",
     "format": "oxfmt src",
+    "format:check": "oxfmt --check src",
     "lint:markup": "markuplint \"**/*.[jt]sx\""
   },
   "dependencies": {
