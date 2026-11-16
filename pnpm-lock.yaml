@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@css-modules-kit/codegen':
         specifier: ^1.0.0
-        version: 1.4.1(typescript@6.0.3)
+        version: 1.4.2(typescript@6.0.3)
       '@markuplint/jsx-parser':
         specifier: ^4.7.22
         version: 4.18.4(typescript@6.0.3)
@@ -65,18 +65,22 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@css-modules-kit/codegen@1.4.1':
-    resolution: {integrity: sha512-LbXejqzJRcSWQiYsqkMP2RmvY6CEXbQqrGuUMW3VQW5LJpUa6kJ92QKdIur74S+TtcLWxXMFFBY1ua9D3RBaLQ==}
+  '@css-modules-kit/codegen@1.4.2':
+    resolution: {integrity: sha512-wVjjKh0dTu4iCXV9m6Hqv5EDO1SuU8BKwKff2EDf3tr83Kumzm3tH7OZ2Uqc+BJjKmnuYqUAF3+cvf83OVYS7w==}
     engines: {node: '>=22.12.0'}
     hasBin: true
     peerDependencies:
       typescript: ^5.7.3 || ^6.0.0
 
-  '@css-modules-kit/core@1.4.1':
-    resolution: {integrity: sha512-adGAaE+4F6n1eVRPAa7GU6B+hTV2MeH/ACJ1MvufI/1rAdzjwgT1SujoH13y9RyRvKWBhyFYpOahPd8oZsQWug==}
+  '@css-modules-kit/core-strada@1.4.2':
+    resolution: {integrity: sha512-IS4HsgxQ1h1qA6XfqJUfzRViq+iDx6K7wH71FxuvDmGNZZJfKXWJdRthIwx/xh7rPs3I2DfffZ2REH1EyXxgjQ==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       typescript: ^5.7.3 || ^6.0.0
+
+  '@css-modules-kit/core@1.4.2':
+    resolution: {integrity: sha512-S+PUmpByTIR2QQrGa9SEBMd1d4rFLux9vkbWZdO/d46zFsWdM41Idut1nexxWpG43YC/7Z6P8h6lF+TL2Ezm9w==}
+    engines: {node: '>=22.12.0'}
 
   '@markuplint/cli-utils@4.18.0':
     resolution: {integrity: sha512-j8+ULM8RdLBiYuBoVXGrr7EnbxQgOdfJM5FOqytRToPUVKPLsToSd+TmqrL198VXOOr2FnqfFt1GCyef3FwqpQ==}
@@ -1160,19 +1164,24 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@css-modules-kit/codegen@1.4.1(typescript@6.0.3)':
+  '@css-modules-kit/codegen@1.4.2(typescript@6.0.3)':
     dependencies:
-      '@css-modules-kit/core': 1.4.1(typescript@6.0.3)
+      '@css-modules-kit/core': 1.4.2
+      '@css-modules-kit/core-strada': 1.4.2(typescript@6.0.3)
       chokidar: 5.0.0
       typescript: 6.0.3
 
-  '@css-modules-kit/core@1.4.1(typescript@6.0.3)':
+  '@css-modules-kit/core-strada@1.4.2(typescript@6.0.3)':
+    dependencies:
+      '@css-modules-kit/core': 1.4.2
+      typescript: 6.0.3
+
+  '@css-modules-kit/core@1.4.2':
     dependencies:
       postcss: 8.5.32
       postcss-safe-parser: 7.0.1(postcss@8.5.32)
       postcss-selector-parser: 7.1.6
       postcss-value-parser: 4.2.0
-      typescript: 6.0.3
 
   '@markuplint/cli-utils@4.18.0':
     dependencies:
